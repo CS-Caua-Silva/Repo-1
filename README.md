@@ -1,4 +1,4 @@
-# Repo  - 1
+# Repositório de Estudos em Python 🐍
     Primerio repositório de Git e GitHub
 
 # Exercícios de Python – Curso em Vídeo
