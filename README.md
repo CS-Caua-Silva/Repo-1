@@ -1,6 +1,6 @@
 # Repo  - 1
     Primerio repositório de Git e GitHub
-    
+
 # Exercícios de Python – Curso em Vídeo
 
 Este repositório contém exercícios desenvolvidos durante meus estudos de Python,
