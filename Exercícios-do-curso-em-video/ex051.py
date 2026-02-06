@@ -2,8 +2,8 @@
 
 inicio =  int(input("Digite o valor da sua PA: "))
 razão = int(input("Digite o valor da sua razão: "))
-fim = int(input("Informe em quantas casa ele vai pular: "))
+quantidade = int(input("Informe a quantidade de termos: "))
 
-for pa in range( 1, inicio+1):
-    termo = fim + (pa-1) * razão
+for pa in range( 1, quantidade+1):
+    termo = inicio + (pa-1) * razão
     print(f"{termo}")
