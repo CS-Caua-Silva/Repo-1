@@ -6,6 +6,3 @@ print("-" * 20)
 print("Processando dados...")
 sleep(2)
 print(f"Sexo {sexo} registrado com sucesso")
-
-
-

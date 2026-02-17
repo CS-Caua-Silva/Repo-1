@@ -1,16 +1,8 @@
-user = int(input("Digite um valor: "))
-contador = 1
-
-while True:
-    user = int(input("Deseja escrever mais um termo? Caso não quira digite (999): "))
-    if user == 999:
-        break
-    if user != 999:
-        contador += 1
-        continue
-print(f"Total de números: {contador}")
-
-
-
-
-
+user = cont = soma = 0
+user = int(input("Digite um termo, Caso não quira digite (999): "))
+while user != 999:
+    cont += 1
+    soma += user
+    user = int(input("Digite um termo, Caso não quira digite (999): "))
+print(f"Total de números: {cont}")
+print(f'O total da soma dos termo é {soma}')

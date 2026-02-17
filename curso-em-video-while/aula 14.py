@@ -29,4 +29,3 @@ while n != 0:
             impar += 1
 print(f"O número total de pares é: {par}")
 print(f"O número total de ímpares é: {impar}")
-

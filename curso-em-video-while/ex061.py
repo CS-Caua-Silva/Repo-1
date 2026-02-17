@@ -10,3 +10,4 @@ while contador <= n:
     print(f"{contador} = {termo}")
     termo = termo + r
     contador += 1
+    

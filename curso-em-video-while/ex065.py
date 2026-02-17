@@ -3,9 +3,7 @@ menor = None
 soma = 0
 contador = 0 
 
-
 while True:
-    try:
 
     # Lê número com tratamento de erro
         numero = int(input("Informe um número: "))
@@ -27,7 +25,6 @@ while True:
      # Verifica resposta
         if pergunta == "N":
             break
-    except ValueError:
         print("Digite um número válido!")
 
 # mostra a média dos números e os resultados
@@ -38,3 +35,33 @@ if maior is not None:
     print(f"O menor termo é: {menor}")
 else:
     print("Nenhum número foi informado!")
+
+# A cima temos uma forma de fazer e a abixo temos outra, as duas foram feitas por mim, so para ver de outra forma de fazer.
+
+'''
+resp = 'S'
+soma = quant = maior = menor = 0
+
+while  resp in 'Ss':
+    num = int(input("Digite um  número: "))
+    quant +=1
+    soma += num
+    if quant == 1:
+        maior = menor = num
+    else:
+        if num > maior:
+            maior = num
+        if num < menor:
+            menor = num 
+    resp = str(input("Quer continuar? [S/N]: ")).strip().upper()[0]
+media = soma / quant
+
+print('~' * 30)
+print(f"A quantidade de termos foi de {quant}")
+print(f"A média é {media}")
+print(f"O maior valor é {maior}")
+'''
+
+
+
+
